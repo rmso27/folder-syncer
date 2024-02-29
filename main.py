@@ -16,4 +16,5 @@ if __name__ == '__main__':
     - Update folder deletion to validate if content of folder is equal to source;
     - Update script to read arguments provided by the user;
     - Update comments;
+    - Update README;
 '''
