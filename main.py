@@ -10,3 +10,10 @@ logs_path = ""
 
 if __name__ == '__main__':
     sync_process(src_folder_path, dest_folder_path, sync_interval)
+
+'''
+    TODO:
+    - Update folder deletion to validate if content of folder is equal to source;
+    - Update script to read arguments provided by the user;
+    - Update comments;
+'''
