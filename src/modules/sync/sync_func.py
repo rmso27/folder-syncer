@@ -7,6 +7,12 @@ import time
 # Run sync process
 def sync_process(src_folder, dest_folder, sync_interval):
 
+    '''
+        NOTE:
+        Here I've went with an infinite loop to keep script running
+        I don't like this approach to much. Idealy a scheduled job on the server would be better.
+    '''
+
     while True:
         try:
             # Get a list of all items in the source folder
@@ -40,7 +46,7 @@ def sync_process(src_folder, dest_folder, sync_interval):
                     # If folder already exists in destination, delete it
                     if os.path.exists(destination_item):
                         try:
-                            shutil.rmtree(destination_item) # TODO: Update to validate if content of folder is equal to source
+                            shutil.rmtree(destination_item)
                             logging.warning(f"Folder '{item_name}' already existed and it was DELETED FROM {destination_item}.")
                         except:
                             logging.error(f"Folder '{item_name}' already exists and it was not possible to delete it.")
