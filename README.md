@@ -1,10 +1,10 @@
 # Veeam's Test Task
 
-REQUEST:
+## Objective
 Please implement a program that synchronizes two folders: source and replica. The
 program should maintain a full, identical copy of source folder at replica folder.
 
-REQUIREMENTS:
+## Requirements
 - Synchronization must be one-way: after the synchronization content of the
 replica folder should be modified to exactly match content of the source
 folder;
@@ -20,4 +20,4 @@ well-known algorithms. For example, there is no point in implementing yet
 another function that calculates MD5 if you need it for the task – it is
 perfectly acceptable to use a third-party (or built-in) library.
 
-TECH: Python
+## Description
