@@ -1,12 +1,12 @@
 # Veeam's Test Task
 <br>
 
-## Objective
+## Objective :pushpin:
 Please implement a program that synchronizes two folders: source and replica. The
 program should maintain a full, identical copy of source folder at replica folder.
 <br>
 
-## Requirements
+### Requirements :pushpin:
 - Synchronization must be one-way: after the synchronization content of the
 replica folder should be modified to exactly match content of the source
 folder;
@@ -23,7 +23,9 @@ another function that calculates MD5 if you need it for the task – it is
 perfectly acceptable to use a third-party (or built-in) library.
 <br>
 
-## Usage
+---
+
+## Usage :pushpin:
 <br>
 
 ### How it works
