@@ -37,6 +37,9 @@ def sync_process(src_folder, dest_folder, sync_interval):
                     sync_file(item_name, source_item, destination_item)
                 else:
                     sync_folder(item_name, source_item, destination_item)
+            print("###")
+            print("Synchronization process has finished. If you want to stop the script, please shutdown it via CTRL+C")
+            print("###")
         except Exception as ex:
             logging.error(f"Error while executing synchronization: {ex}")
 
