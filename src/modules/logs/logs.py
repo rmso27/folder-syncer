@@ -6,12 +6,13 @@
 # Import modules
 import time
 import logging
+import sys
 from logging.config import fileConfig
 
 # Setup logging
 loglevel='DEBUG'
 currtime = time.localtime()
 timest = time.strftime('%Y-%m-%d_%H%M', currtime)
-logfile = ("folder_sync" + "_" + timest + ".log")
+logfile = (sys.argv[4] + "folder_sync" + "_" + timest + ".log")
 fileConfig('configs/logs.ini',defaults={'logfilename': logfile, 'loglevel': loglevel})
 logging = logging.getLogger('root')
