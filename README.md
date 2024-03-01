@@ -1,5 +1,5 @@
 # Veeam's Test Task
-
+&nbsp;
 ## Objective
 
 Please implement a program that synchronizes two folders: source and replica. The
