@@ -42,7 +42,7 @@ will be executed with the interval set on the `<SYNC_INTERVAL>`.
 
 #### The output
 Console:<br />
-![alt text](image.png)
+![alt text](image-2.png)
 <br>
 
 Logs:<br />
