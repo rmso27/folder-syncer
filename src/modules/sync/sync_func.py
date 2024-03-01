@@ -1,10 +1,10 @@
-"""
+'''
     DESCRIPTION:
     In this file I've set the all of the needed synced funtions.
-    The 'sync_process' function continuously synchronizes files and folders between a source and
+    The "sync_process" function continuously synchronizes files and folders between a source and
     destination directory at a specified interval, handling files and folders separately with
     appropriate logging and error handling.
-"""
+'''
 
 # Import modules
 import os
