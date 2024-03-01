@@ -21,7 +21,7 @@ synchronization;
 well-known algorithms. For example, there is no point in implementing yet
 another function that calculates MD5 if you need it for the task – it is
 perfectly acceptable to use a third-party (or built-in) library.
-(&nbsp;)
+<br>
 
 ## Usage
 &nbsp;
