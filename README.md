@@ -47,7 +47,12 @@ will be executed with the interval set on the `<SYNC_INTERVAL>`.
 <br>
 
 #### The output
+Console:<br />
 ![alt text](image.png)
+<br>
+
+Logs:<br />
+![alt text](image-1.png)
 <br>
 
 ### Requirements
