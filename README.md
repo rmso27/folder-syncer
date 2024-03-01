@@ -61,7 +61,9 @@ Logs:<br />
 
 ### How To
 In order to execute the script, just type the following command: <br />
-`python main.py <SOURCE_FOLDER> <DEST_FOLDER> <SYNC_INTERVAL> <LOGS_PATH>`
+```bash
+python main.py <SOURCE_FOLDER> <DEST_FOLDER> <SYNC_INTERVAL> <LOGS_PATH>
+```
 <br>
 
 :information_source: `<SYNC_INTERVAL>`: should be set in SECONDS.
