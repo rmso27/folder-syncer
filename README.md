@@ -32,7 +32,9 @@ The script receives 4 arguments: `<SOURCE_FOLDER>` and `<DEST_FOLDER>`, `<SYNC_I
 - `<SYNC_INTERVAL>`: The time interval between syncs.
 - `<LOGS_PATH>`: The place where the sync logs should be stored.
 
-The 3 first arguments are passed into a function called `sync_process()` and here is where all of synchronization actions take place.
+All arguments are sent to a function called `validate_args()` that validates if the arguments type are correct.
+
+Than the 3 first arguments are passed into a function called `sync_process()` and here is where all of synchronization actions take place.
 The `<LOGS_PATH>` argument is used on the `logs` module.
 
 The `sync_process()` function runs an infinite loop that forces the script to keep until you manually stop it. Basically what this function
