@@ -1,3 +1,9 @@
+'''
+    DESCRIPTION:
+    This module is used for setting up logging 'format'.
+'''
+
+# Import modules
 import time
 import logging
 from logging.config import fileConfig
