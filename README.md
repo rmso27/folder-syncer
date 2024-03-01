@@ -22,7 +22,13 @@ well-known algorithms. For example, there is no point in implementing yet
 another function that calculates MD5 if you need it for the task – it is
 perfectly acceptable to use a third-party (or built-in) library.
 
-## How To
+## Run the script
 
+### Requirements
+- Python3
+
+### How To
 In order to execute the script, just type the following command: <br />
 `python main.py <SOURCE_FOLDER> <DEST_FOLDER> <SYNC_INTERVAL> <LOGS_PATH>`
+
+:information_source: `<SYNC_INTERVAL>` should be set in SECONDS.
