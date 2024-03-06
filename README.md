@@ -1,4 +1,4 @@
-# Veeam's Test Task
+# Folder Syncer
 <br>
 
 ## Objective :pushpin:
